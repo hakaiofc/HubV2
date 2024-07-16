@@ -108,7 +108,7 @@ _G.AutoStr = True
 function AutoStr()
 while _G.AutoStr == true do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6.157426357269287, 14.889446258544922, 50.57463836669922)
-wait()
+wait(0.03)
 end
 end
 --Valor
@@ -117,7 +117,7 @@ _G.AutoStr1 = True
 function AutoStr1()
 while _G.AutoStr1 == true do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(65.51814270019531, 15.123571395874023, 52.94154739379883)
-wait()
+wait(0.01)
 end
 end
 --Valor
@@ -126,7 +126,7 @@ _G.AutoStr2 = True
 function AutoStr2()
 while _G.AutoStr2 == true do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19.189403533935547, 14.380013465881348, -145.631591796875)
-wait()
+wait(0.01)
 end
 end
 --Valor
