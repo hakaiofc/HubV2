@@ -1,7 +1,7 @@
 --Load
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/hakaiofc/Base/main/HUBORION')))()
 --Main Script
-local Window = OrionLib:MakeWindow({Name = "HAKAI_OFC 🥋 V1", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = false})
+local Window = OrionLib:MakeWindow({Name = "HAKAI_OFC 🥋 V2 TEST", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = false})
 --Valor
 _G.AutoFlexao = True
 --Função
