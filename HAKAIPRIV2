@@ -84,9 +84,6 @@ while _G.AutoBat == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 wait()
 end
 end
@@ -126,7 +123,7 @@ _G.AutoStr2 = True
 function AutoStr2()
 while _G.AutoStr2 == true do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19.189403533935547, 14.380013465881348, -145.631591796875)
-wait(0.02)
+wait(0.03)
 end
 end
 --Valor
@@ -135,7 +132,7 @@ _G.AutoStr3 = True
 function AutoStr3()
 while _G.AutoStr3 == true do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(64.84263610839844, 14.38001537322998, -145.73280334472656)
-wait(0.02)
+wait(0.2)
 end
 end
 --Valor
@@ -144,7 +141,7 @@ _G.AutoStr4 = True
 function AutoStr4()
 while _G.AutoStr4 == true do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(46.24648666381836, 15.3235502243042, 53.776580810546875)
-wait(0.01)
+wait(0.1)
 end
 end
 --Main
