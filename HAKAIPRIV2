@@ -352,6 +352,13 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/
 wait()
 end
 })
+ggTab:AddButton({
+    Name = "FarmHubOP ⚙️",
+    Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/hakaiofc/FarmHub2/main/OP'))()
+wait()
+end
+})
 
 ggTab:AddButton({
     Name = "AntAFK 💤",
