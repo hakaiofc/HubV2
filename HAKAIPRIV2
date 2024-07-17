@@ -355,7 +355,7 @@ end
 ggTab:AddButton({
     Name = "FarmHubOP ⚙️",
     Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/hakaiofc/FarmHub2/main/OP'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/hakaiofc/Empyre2/main/ScriptHUB2'))()
 wait()
 end
 })
