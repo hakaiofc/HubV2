@@ -92,9 +92,12 @@ _G.AutoBat2 = True
 --Função
 function AutoBat2()
 while _G.AutoBat2 == true do
-game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
+    local Event =   game:GetService("Players").LocalPlayer.Character.Bat.Attack
+    Event:FireServer()
+    local Event =   game:GetService("Players").LocalPlayer.Character.Bat.Attack
+    Event:FireServer()
+    local Event =   game:GetService("Players").LocalPlayer.Character.Bat.Attack
+    Event:FireServer()
 wait()
 end
 end
@@ -253,7 +256,7 @@ AttackTab:AddToggle({
     end
 })
 AttackTab:AddToggle({
-    Name = "Auto-Bat 🏏",
+    Name = "Auto-Bat2 🏏",
     Default = false,
     Callback = function(Value)
         _G.AutoBat2 = Value
