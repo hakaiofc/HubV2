@@ -77,10 +77,21 @@ wait()
 end
 end
 --Valor
-_G.AutoSweep = True
+_G.AutoBat = True
 --Função
 function AutoBat()
 while _G.AutoBat == true do
+game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
+game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
+game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
+wait()
+end
+end
+--Valor
+_G.AutoBat2 = True
+--Função
+function AutoBat2()
+while _G.AutoBat2 == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
@@ -239,6 +250,14 @@ AttackTab:AddToggle({
     Callback = function(Value)
         _G.AutoBat = Value
         AutoBat()
+    end
+})
+AttackTab:AddToggle({
+    Name = "Auto-Bat 🏏",
+    Default = false,
+    Callback = function(Value)
+        _G.AutoBat2 = Value
+        AutoBat2()
     end
 })
 
