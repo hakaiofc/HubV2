@@ -84,9 +84,6 @@ while _G.AutoBat == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-
-game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 wait()
 end
 end
