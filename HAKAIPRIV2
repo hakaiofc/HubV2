@@ -48,7 +48,7 @@ _G.AutoLife = True
 function AutoLife()
 while _G.AutoLife == true do
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("BenchToggle"):FireServer()
-wait()
+wait(0.385)
 end
 end
 
@@ -156,6 +156,28 @@ function AutoStr4()
 while _G.AutoStr4 == true do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(46.24648666381836, 15.3235502243042, 53.776580810546875)
 wait(0.32)
+end
+end
+
+--Valor
+_G.AutoStr5 = True
+
+--Função
+function AutoStr5()
+while _G.AutoStr5 == true do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-0.03667623549699783, 18.824548721313477, 50.87287902832031)
+wait(0.39)
+end
+end
+
+--Valor
+_G.AutoStr6 = True
+
+--Função
+function AutoStr6()
+while _G.AutoStr6 == true do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(590.4363403320312, 13.129400253295898, -308.85833740234375)
+wait(0.8)
 end
 end
 --Main
@@ -353,6 +375,22 @@ FarmTab:AddToggle({
     Callback = function(Value)
         _G.AutoStr4 = Value
         AutoStr4()
+    end
+})
+FarmTab:AddToggle({
+    Name = "Str5",
+    Default = false,
+    Callback = function(Value)
+        _G.AutoStr5 = Value
+        AutoStr5()
+    end
+})
+FarmTab:AddToggle({
+    Name = "Str6",
+    Default = false,
+    Callback = function(Value)
+        _G.AutoStr6 = Value
+        AutoStr6()
     end
 })
 -- infiniteyield and AFK 
