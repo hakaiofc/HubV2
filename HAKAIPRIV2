@@ -48,7 +48,7 @@ _G.AutoLife = True
 function AutoLife()
 while _G.AutoLife == true do
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("BenchToggle"):FireServer()
-wait(0.385)
+wait()
 end
 end
 
