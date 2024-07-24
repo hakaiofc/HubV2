@@ -17,7 +17,7 @@ _G.AutoSitup = True
 function AutoSitup()
 while _G.AutoSitup == true do
 game:GetService("ReplicatedStorage").Remotes.Situp:FireServer()
-wait(0.485)
+wait(0.470)
 end
 end
 --Valor
@@ -38,7 +38,7 @@ _G.AutoPeso = True
 function AutoPeso()
 while _G.AutoPeso == true do
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Dumbbell"):FireServer()
-wait(0.485)
+wait(0.470)
 end
 end
 --Valor
@@ -119,7 +119,7 @@ _G.AutoStr = True
 function AutoStr()
 while _G.AutoStr == true do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6.157426357269287, 14.889446258544922, 50.57463836669922)
-wait(0.12)
+wait(0.17)
 end
 end
 --Valor
@@ -155,24 +155,20 @@ _G.AutoStr4 = True
 function AutoStr4()
 while _G.AutoStr4 == true do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(46.24648666381836, 15.3235502243042, 53.776580810546875)
-wait(0.32)
+wait(0.8)
 end
 end
-
 --Valor
 _G.AutoStr5 = True
-
 --Função
 function AutoStr5()
 while _G.AutoStr5 == true do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-0.03667623549699783, 18.824548721313477, 50.87287902832031)
-wait(0.39)
+wait(0.17)
 end
 end
-
 --Valor
 _G.AutoStr6 = True
-
 --Função
 function AutoStr6()
 while _G.AutoStr6 == true do
