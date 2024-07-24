@@ -118,7 +118,7 @@ _G.AutoStr = True
 --Função
 function AutoStr()
 while _G.AutoStr == true do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6.157426357269287, 14.889446258544922, 50.57463836669922)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11.874368667602539, 18.83087730407715, 50.71554946899414)
 wait(0.17)
 end
 end
