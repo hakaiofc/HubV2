@@ -92,13 +92,11 @@ _G.AutoBat2 = True
 --Função
 function AutoBat2()
 while _G.AutoBat2 == true do
-
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 
     game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 
         game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-
 wait()
 end
 end
@@ -420,7 +418,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/hakaiofc/CobraLegend/
 wait()
 end
 })
-
 ggTab:AddButton({
     Name = "AntAFK 💤",
     Callback = function()
