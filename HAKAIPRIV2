@@ -412,6 +412,13 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/hakaiofc/Empyre2/main
 wait()
 end
 })
+ggTab:AddButton({
+    Name = "SpinFarm ⚙️",
+    Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/hakaiofc/CobraLegend/main/Spin'))()
+wait()
+end
+})
 
 ggTab:AddButton({
     Name = "AntAFK 💤",
