@@ -92,12 +92,15 @@ _G.AutoBat2 = True
 --Função
 function AutoBat2()
 while _G.AutoBat2 == true do
-    local Event =   game:GetService("Players").LocalPlayer.Character.Bat.Attack
-    Event:FireServer()
-    local Event =   game:GetService("Players").LocalPlayer.Character.Bat.Attack
-    Event:FireServer()
-    local Event =   game:GetService("Players").LocalPlayer.Character.Bat.Attack
-    Event:FireServer()
+getgenv().HAKAI_OFC = true;
+if getgenv().HAKAI_OFC == true then end
+game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
+if getgenv().HAKAI_OFC == true then end
+    game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
+if getgenv().HAKAI_OFC == true then end
+        game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
+if getgenv().HAKAI_OFC == true then end
+end
 wait()
 end
 end
