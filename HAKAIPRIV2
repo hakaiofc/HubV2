@@ -93,10 +93,27 @@ _G.AutoBat2 = True
 function AutoBat2()
 while _G.AutoBat2 == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-
     game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-
         game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
+wait()
+end
+end
+--Valor
+_G.AutoBat3 = True
+--Função
+function AutoBat3()
+while _G.AutoBat3 == true do
+game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
+wait()
+end
+end
+--Valor
+_G.AutoBat4 = True
+--Função
+function AutoBat4()
+while _G.AutoBat4 == true do
+game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
+game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 wait()
 end
 end
@@ -280,7 +297,22 @@ AttackTab:AddToggle({
         AutoBat2()
     end
 })
-
+AttackTab:AddToggle({
+    Name = "Auto-Bat3 🏏",
+    Default = false,
+    Callback = function(Value)
+        _G.AutoBat3 = Value
+        AutoBat3()
+    end
+})
+AttackTab:AddToggle({
+    Name = "Auto-Bat4 🏏",
+    Default = false,
+    Callback = function(Value)
+        _G.AutoBat4 = Value
+        AutoBat4()
+    end
+})
 --Dojo 
 local DojoTab = Window:MakeTab({
     Name = "🕳Teleport🕳",
