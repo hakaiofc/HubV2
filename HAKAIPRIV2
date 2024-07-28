@@ -92,9 +92,12 @@ _G.AutoBat2 = True
 --Função
 function AutoBat2()
 while _G.AutoBat2 == true do
-game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-    game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-        game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
+local Event = game:GetService("Players").LocalPlayer.Character.Bat.Attack
+Event:FireServer()
+local Event = game:GetService("Players").LocalPlayer.Character.Bat.Attack
+Event:FireServer()
+local Event = game:GetService("Players").LocalPlayer.Character.Bat.Attack
+Event:FireServer()
 wait()
 end
 end
@@ -112,6 +115,18 @@ _G.AutoBat4 = True
 --Função
 function AutoBat4()
 while _G.AutoBat4 == true do
+game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
+game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
+wait()
+end
+end
+--Valor
+_G.AutoBat5 = True
+--Função
+function AutoBat5()
+while _G.AutoBat5 == true do
+game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
+game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 wait()
@@ -311,6 +326,14 @@ AttackTab:AddToggle({
     Callback = function(Value)
         _G.AutoBat4 = Value
         AutoBat4()
+    end
+})
+AttackTab:AddToggle({
+    Name = "Auto-Bat5 🏏",
+    Default = false,
+    Callback = function(Value)
+        _G.AutoBat5 = Value
+        AutoBat5()
     end
 })
 --Dojo 
