@@ -93,12 +93,7 @@ _G.AutoBat2 = True
 --Função
 function AutoBat2()
 while _G.AutoBat2 == true do
-local Event = game:GetService("Players").LocalPlayer.Character.Bat.Attack
-Event:FireServer()
-local Event = game:GetService("Players").LocalPlayer.Character.Bat.Attack
-Event:FireServer()
-local Event = game:GetService("Players").LocalPlayer.Character.Bat.Attack
-Event:FireServer()
+game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 wait()
 end
 end
