@@ -48,7 +48,7 @@ function AutoLife()
 while _G.AutoLife == true do
 game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
 game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
-wait(0.385)
+wait()
 end
 end
 --Valor
@@ -58,7 +58,27 @@ function AutoLife2()
 while _G.AutoLife2 == true do
 game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
 game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
-wait(0.385)
+wait()
+end
+end
+--Valor
+_G.AutoLife3 = True
+--Função
+function AutoLife3()
+while _G.AutoLife3 == true do
+game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
+game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
+wait()
+end
+end
+--Valor
+_G.AutoLife4 = True
+--Função
+function AutoLife4()
+while _G.AutoLife4 == true do
+game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
+game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
+wait()
 end
 end
 --Valor
@@ -265,6 +285,22 @@ MainTab:AddToggle({
     Callback = function(Value)
         _G.AutoLife2 = Value
         AutoLife2()
+    end
+})
+MainTab:AddToggle({
+    Name = "Bench3 🏋🏻",
+    Default = false,
+    Callback = function(Value)
+        _G.AutoLife3 = Value
+        AutoLife3()
+    end
+})
+MainTab:AddToggle({
+    Name = "Bench4 🏋🏻",
+    Default = false,
+    Callback = function(Value)
+        _G.AutoLife4 = Value
+        AutoLife4()
     end
 })
 --Attack 
