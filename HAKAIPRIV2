@@ -58,7 +58,7 @@ _G.AutoKatana = True
 function AutoKatana()
 while _G.AutoKatana == true do
 game:GetService("Players").LocalPlayer.Character.Katana.Attack:FireServer()
-wait(-9e999)
+wait()
 end
 end
 --Valor
@@ -81,7 +81,7 @@ while _G.AutoBat == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-wait(-9e999)
+wait()
 end
 end
 --Valor
@@ -90,7 +90,7 @@ _G.AutoBat2 = True
 function AutoBat2()
 while _G.AutoBat2 == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-wait(-9e999)
+wait()
 end
 end
 --Valor
@@ -99,7 +99,7 @@ _G.AutoBat3 = True
 function AutoBat3()
 while _G.AutoBat3 == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-wait(-9e999)
+wait()
 end
 end
 --Valor
@@ -109,7 +109,7 @@ function AutoBat4()
 while _G.AutoBat4 == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-wait(-9e999)
+wait()
 end
 end
 --Valor
@@ -119,7 +119,7 @@ function AutoBat5()
 while _G.AutoBat5 == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-wait(-9e999)
+wait()
 end
 end
 --Valor
@@ -128,7 +128,7 @@ _G.AutoBat6 = True
 function AutoBat6()
 while _G.AutoBat6 == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-wait(-9e999)
+wait()
 end
 end
 --Valor
