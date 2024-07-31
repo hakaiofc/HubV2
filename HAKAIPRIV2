@@ -457,7 +457,7 @@ local ggTab = Window:MakeTab({
     PremiumOnly = false
 })
 local Section = ggTab:AddSection({
-    Name = "infiniteyield and AFK"
+    Name = "Helpers"
 })
 ggTab:AddButton({
     Name = "infiniteyield ⚙️",
@@ -477,6 +477,13 @@ ggTab:AddButton({
     Name = "SpinFarm ⚙️",
     Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/hakaiofc/CobraLegend/main/Spin'))()
+wait()
+end
+})
+ggTab:AddButton({
+    Name = "AntiLag ⚙️",
+    Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/hakaiofc/Anti/main/lag'))()
 wait()
 end
 })
