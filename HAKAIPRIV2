@@ -47,7 +47,6 @@ _G.AutoLife = True
 function AutoLife()
 while _G.AutoLife == true do
 game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
-game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
 wait()
 end
 end
@@ -56,7 +55,6 @@ _G.AutoLife2 = True
 --Função
 function AutoLife2()
 while _G.AutoLife2 == true do
-game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
 game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
 wait()
 end
@@ -67,7 +65,6 @@ _G.AutoLife3 = True
 function AutoLife3()
 while _G.AutoLife3 == true do
 game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
-game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
 wait()
 end
 end
@@ -76,7 +73,6 @@ _G.AutoLife4 = True
 --Função
 function AutoLife4()
 while _G.AutoLife4 == true do
-game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
 game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
 wait()
 end
@@ -137,7 +133,6 @@ _G.AutoBat4 = True
 function AutoBat4()
 while _G.AutoBat4 == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
-game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 wait()
 end
 end
@@ -146,7 +141,6 @@ _G.AutoBat5 = True
 --Função
 function AutoBat5()
 while _G.AutoBat5 == true do
-game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 wait()
 end
