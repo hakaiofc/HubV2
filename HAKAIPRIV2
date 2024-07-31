@@ -1,7 +1,7 @@
 --Load
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/hakaiofc/Base/main/HUBORION')))()
 --Main Script
-local Window = OrionLib:MakeWindow({Name = "HAKAI_OFC 🥋 V2 TEST", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = false})
+local Window = OrionLib:MakeWindow({Name = "HAKAI_OFC 🥋 V3", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = false})
 --Valor
 _G.AutoFlexao = True
 --Função
@@ -52,12 +52,10 @@ game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
 wait(0.385)
 end
 end
-
 --Valor
 _G.AutoKatana = True
-
 --Função
-function AutoKatana(-9e999)
+function AutoKatana()
 while _G.AutoKatana == true do
 game:GetService("Players").LocalPlayer.Character.Katana.Attack:FireServer()
 wait(-9e999)
@@ -65,7 +63,6 @@ end
 end
 --Valor
 _G.AutoSweep = True
-
 --Função
 function AutoSweep()
 while _G.AutoSweep == true do
@@ -79,7 +76,7 @@ end
 --Valor
 _G.AutoBat = True
 --Função
-function AutoBat(-9e999)
+function AutoBat()
 while _G.AutoBat == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
@@ -90,7 +87,7 @@ end
 --Valor
 _G.AutoBat2 = True
 --Função
-function AutoBat2(-9e999)
+function AutoBat2()
 while _G.AutoBat2 == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 wait(-9e999)
@@ -99,7 +96,7 @@ end
 --Valor
 _G.AutoBat3 = True
 --Função
-function AutoBat3(-9e999)
+function AutoBat3()
 while _G.AutoBat3 == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 wait(-9e999)
@@ -108,7 +105,7 @@ end
 --Valor
 _G.AutoBat4 = True
 --Função
-function AutoBat4(-9e999)
+function AutoBat4()
 while _G.AutoBat4 == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
@@ -118,7 +115,7 @@ end
 --Valor
 _G.AutoBat5 = True
 --Função
-function AutoBat5(-9e999)
+function AutoBat5()
 while _G.AutoBat5 == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
@@ -128,7 +125,7 @@ end
 --Valor
 _G.AutoBat6 = True
 --Função
-function AutoBat6(-9e999)
+function AutoBat6()
 while _G.AutoBat6 == true do
 game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 wait(-9e999)
