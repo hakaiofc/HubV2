@@ -43,10 +43,19 @@ end
 end
 --Valor
 _G.AutoLife = True
-
 --Função
 function AutoLife()
 while _G.AutoLife == true do
+game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
+game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
+wait(0.385)
+end
+end
+--Valor
+_G.AutoLife2 = True
+--Função
+function AutoLife2()
+while _G.AutoLife2 == true do
 game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
 game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
 wait(0.385)
@@ -248,6 +257,14 @@ MainTab:AddToggle({
     Callback = function(Value)
         _G.AutoLife = Value
         AutoLife()
+    end
+})
+MainTab:AddToggle({
+    Name = "Bench2 🏋🏻",
+    Default = false,
+    Callback = function(Value)
+        _G.AutoLife2 = Value
+        AutoLife2()
     end
 })
 --Attack 
