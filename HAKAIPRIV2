@@ -83,6 +83,8 @@ _G.AutoKatana = True
 function AutoKatana()
 while _G.AutoKatana == true do
 game:GetService("Players").LocalPlayer.Character.Katana.Attack:FireServer()
+game:GetService("Players").LocalPlayer.Character.Katana.Attack:FireServer()
+game:GetService("Players").LocalPlayer.Character.Katana.Attack:FireServer()
 wait()
 end
 end
